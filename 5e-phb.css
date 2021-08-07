@@ -5,7 +5,9 @@
 	font-size:.317cm !important;
 	text-rendering: optimizeLegibility !important;
 }
+
 /* HEADERS */
+
 .journal-sheet .editor-content h1, 
 .journal-sheet .editor-content h2, 
 .journal-sheet .editor-content h3, 
@@ -51,7 +53,9 @@
     font-size: .423cm;
     font-weight: 900;
 }
+
 /* BODY */
+
 .journal-sheet .editor-content p{
 	margin: 0 0 10.5px;
 	line-height: 1.3em;
