@@ -15,3 +15,6 @@
     ![Source Screenshot](https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/images/source-screenshot.png?raw=true)
 2. Navigate to your `<table ...>` line
 3. add this class to it: `class='.class-table'` 
+
+## Credit
+All font used in this CSS is from https://github.com/jonathonf/solbera-dnd-fonts
