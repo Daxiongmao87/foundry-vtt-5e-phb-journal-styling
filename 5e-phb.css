@@ -5,9 +5,7 @@
 	font-size:.317cm !important;
 	text-rendering: optimizeLegibility !important;
 }
-
 /* HEADERS */
-
 .journal-sheet .editor-content h1, 
 .journal-sheet .editor-content h2, 
 .journal-sheet .editor-content h3, 
@@ -53,9 +51,7 @@
     font-size: .423cm;
     font-weight: 900;
 }
-
 /* BODY */
-
 .journal-sheet .editor-content p{
 	margin: 0 0 10.5px;
 	line-height: 1.3em;
@@ -86,7 +82,7 @@
 	padding:1cm 1.7cm;
 	padding-bottom:1.5cm;
 	background-color:#EEE5CE;	
-	background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c326417-2544-448b-970a-65116b91b4ea/d91rf3o-fdf58c49-091d-42eb-9bb4-a5793e37ad53.png/v1/fill/w_1024,h_1385,q_80,strp/phb_background_texture_by_kluckham_d91rf3o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM4NSIsInBhdGgiOiJcL2ZcLzNjMzI2NDE3LTI1NDQtNDQ4Yi05NzBhLTY1MTE2YjkxYjRlYVwvZDkxcmYzby1mZGY1OGM0OS0wOTFkLTQyZWItOWJiNC1hNTc5M2UzN2FkNTMucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.N8r1kAuEX-Y5Hugx5BhbXQwcLjjffimmx_tFoIrhz9I');
+	background-image:url('https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/5e-phb-background-imitation.png');
 	font-family:BookSanity !important;
 	font-size:1.0em;
 	text-rendering:optimizeLegibility;
@@ -102,14 +98,6 @@
     display:block
 }
 
-/*
-    Unfortunately I could not find an alternative 
-    to the note-wrap.png noted below that I felt 
-    comfortable to share.  This class-table block
-    would look like the green note section in this
-    image: 
-    https://i0.wp.com/critgames.com/wp-content/uploads/2016/05/Natural-Crit-1.png?fit=1275%2C1650&ssl=1
-
 .journal-sheet .editor-content blockquote {
 	font-family: ScalySans !important;
     box-sizing: border-box;
@@ -119,26 +107,7 @@
     background-color: #e0e5c1;
     border-style: solid;
     border-width: 11px;
-    border-image: url(note-wrap.png) 11;
-    border-image-outset: 9px 0;
-    box-shadow: 1px 4px 14px #888;
-}
-*/
-
-/*
-    So instead here is a less true-to-form block quote
-    that I feel still fits relatively.
-*/
-
-.journal-sheet .editor-content blockquote {
-	font-family: ScalySans !important;
-    box-sizing: border-box;
-    margin-bottom: 1em;
-    margin-top: 9px;
-    padding: 5px 10px;
-    background-color: #e0e5c1;
-    border-style: none;
-    border-width: 11px;
+    border-image: url(https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/note-wrap-imitation.png) 40;
     border-image-outset: 9px 0;
     box-shadow: 1px 4px 14px #888;
 }
@@ -209,10 +178,14 @@
 	min-width: 64px;
 	text-shadow: none !important;
 	color: black !important;
+	
 	background-color: rgba(0,0,0,0) !important;
 }
-.journal-sheet .editor-content table thead{
+.journal-sheet .editor-content table thead {
     font-weight: 800 !important;
+}
+.journal-sheet .editor-content table {
+	border-spacing: 0;
 }
 .journal-sheet .editor-content table tbody tr:nth-child(odd) {
 	background-color: #e0e5c1 !important;
@@ -251,13 +224,6 @@
 
 /* CUSTOM STUFF */
 
-/* 
-    Unfortunately I could not find an alternative 
-    to the table-wrap.png noted below that I felt 
-    comfortable to share.  This class-table block
-    would look like this: 
-    https://www.pinterest.co.uk/pin/326018460509625722/
-    
 .journal-sheet .editor-content .class-table {
     margin-top: 25px;
     margin-bottom: 40px;
@@ -268,13 +234,13 @@
     border-image-outset: 25px 17px;
     border-image-repeat: stretch;
     border-image-slice: 150 200 150 200;
-    border-image-source: url(table-wrap.png);
+    border-image-source: url(https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/class-table-wrap-imitation.png);
     border-image-width: 47px;
 	max-width:480px;
 	margin-left:auto;
 	margin-right:auto;
 }
-*/
+
 
 /* 
   Credit:
