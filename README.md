@@ -8,3 +8,9 @@
 3. In your world, navigate to Configure Settings -> Module Settings -> Custom CSS -> Custom CSS Rules
 4. Paste the copied code from step 2, and save changes
 5. Now when you make a journal entry, using the built-in journal formatting tools, it should mimic the 5e PHB style.
+
+**Note:** In order to use css options like the class-specific table in the screenshot above, you'll have to:
+1.  Edit the source of that journal entry
+    a.  ![Source Screenshot](https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/images/source-screenshot.png?raw=true)
+2. Navigate to your `<table>` line
+3. add this class to it: `class='.class-table'` 
