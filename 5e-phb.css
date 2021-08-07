@@ -249,27 +249,33 @@
 
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity.otf') format('opentype');
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity.otf') format('opentype');
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity Bold.otf') format('opentype');
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold.otf') format('opentype');
     font-weight:bold;
     font-style:normal
 }
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity Italic.otf') format('opentype');
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Italic.otf') format('opentype');
     font-weight:normal;
     font-style:italic
 }
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity Bold Italic.otf') format('opentype');
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold%20Italic.otf') format('opentype');
     font-weight:bold;
     font-style:italic
+}
+@font-face{
+    font-family:NodestoCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal
 }
 @font-face{
     font-family:NodestoCaps;
