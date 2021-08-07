@@ -1,0 +1,386 @@
+/* Custom CSS */
+/* OVERALL */
+
+.journal-sheet .editor-content {
+	font-size:.317cm !important;
+	text-rendering: optimizeLegibility !important;
+}
+/* HEADERS */
+.journal-sheet .editor-content h1, 
+.journal-sheet .editor-content h2, 
+.journal-sheet .editor-content h3, 
+.journal-sheet .editor-content h4 {
+    margin-top:.2em !important; 
+    margin-bottom:.2em !important;
+    font-family:MrJeeves !important;
+    color: rgb(93, 24, 13) !important;
+}
+.journal-sheet .editor-content h1{
+    font-size:.987cm;
+    -webkit-column-span:all;
+    -moz-column-span:all;
+	border-bottom: none;
+	-webkit-text-stroke-width: 1.2px;
+}
+.journal-sheet .editor-content h2{
+    font-size:.705cm;
+    -webkit-column-span:all;
+    -moz-column-span:all;
+	border-bottom: none;
+	-webkit-text-stroke-width: 1px;
+}
+
+.journal-sheet .editor-content h3{
+    font-size:.529cm;
+    -webkit-column-span:all;
+    -moz-column-span:all;
+	border-bottom: 2px solid #c9ad6a;
+	-webkit-text-stroke-width: 0.6px;
+}
+.journal-sheet .editor-content h4{
+	margin-bottom: 0 !important;
+    font-size:.458cm;
+    -webkit-column-span:all;
+    -moz-column-span:all;
+	-webkit-text-stroke-width: 0.6px;
+}
+.journal-sheet .editor-content h5 {
+	margin-top: 0;
+	margin-bottom: .2em;
+    font-family: ScalySansSmallCaps;
+    font-size: .423cm;
+    font-weight: 900;
+}
+/* BODY */
+.journal-sheet .editor-content p{
+	margin: 0 0 10.5px;
+	line-height: 1.3em;
+	-webkit-text-stroke-width: 0px;
+}
+
+.journal-sheet .editor-content p+p{
+	margin-top: -0.8em;
+}
+
+.journal-sheet .editor-content h1+p::first-letter{
+    float:left;
+    font-family:Solberry;
+    font-size:5em;
+    color:#222;
+    line-height:.8em;
+}
+
+/* 
+    Not the background shared on the screenshots, 
+    but one I found with Creative Commons.
+    Credit:
+    https://www.deviantart.com/kluckham/art/PHB-Background-texture-547154484
+*/
+
+.journal-sheet .editor-content {
+    color:#000;
+	padding:1cm 1.7cm;
+	padding-bottom:1.5cm;
+	background-color:#EEE5CE;	
+	background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c326417-2544-448b-970a-65116b91b4ea/d91rf3o-fdf58c49-091d-42eb-9bb4-a5793e37ad53.png/v1/fill/w_1024,h_1385,q_80,strp/phb_background_texture_by_kluckham_d91rf3o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM4NSIsInBhdGgiOiJcL2ZcLzNjMzI2NDE3LTI1NDQtNDQ4Yi05NzBhLTY1MTE2YjkxYjRlYVwvZDkxcmYzby1mZGY1OGM0OS0wOTFkLTQyZWItOWJiNC1hNTc5M2UzN2FkNTMucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.N8r1kAuEX-Y5Hugx5BhbXQwcLjjffimmx_tFoIrhz9I');
+	font-family:BookSanity !important;
+	font-size:1.0em;
+	text-rendering:optimizeLegibility;
+}
+
+.journal-sheet .editor-content p+p, 
+.journal-sheet .editor-content ul+p,
+.journal-sheet .editor-content ol+p {
+    text-indent: 1em;
+}
+
+.journal-sheet .editor-content .column-break+section{
+    display:block
+}
+
+/*
+    Unfortunately I could not find an alternative 
+    to the note-wrap.png noted below that I felt 
+    comfortable to share.  This class-table block
+    would look like this: 
+    http://somexamplefor.com/note-wrap.png
+
+.journal-sheet .editor-content blockquote {
+	font-family: ScalySans !important;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    margin-top: 9px;
+    padding: 5px 10px;
+    background-color: #e0e5c1;
+    border-style: solid;
+    border-width: 11px;
+    border-image: url(note-wrap.png) 11;
+    border-image-outset: 9px 0;
+    box-shadow: 1px 4px 14px #888;
+}
+*/
+
+/*
+    So instead here is a less true-to-form block quote
+    that I feel still fits relatively.
+*/
+
+.journal-sheet .editor-content blockquote {
+	font-family: ScalySans !important;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    margin-top: 9px;
+    padding: 5px 10px;
+    background-color: #e0e5c1;
+    border-style: none;
+    border-width: 11px;
+    border-image-outset: 9px 0;
+    box-shadow: 1px 4px 14px #888;
+}
+
+.journal-sheet .editor-content blockquote p+p {
+	margin-top: 0;
+}
+
+.journal-sheet .editor-content blockquote p {
+	margin-bottom: 0;
+}
+
+.journal-sheet .editor-content hr {
+    visibility: hidden;
+	margin: 0;
+}
+.journal-sheet .editor-content hr+ul {
+    margin-bottom: .5em;
+    padding-left: 1em;
+    text-indent: -1em;
+    list-style-type: none;
+}
+
+.journal-sheet .editor-content ul {
+    margin-bottom: .8em;
+    padding-left: 1.4em;
+    line-height: 1.3em;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+.journal-sheet .editor-content ul, ol {
+    margin-top: 0;
+}
+
+/* IMAGES */
+
+.journal-sheet .editor-content .vtta-image-container {
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
+}
+.journal-sheet .editor-content img {
+	border-color: rgba(0,0,0,0);
+}
+
+/* TABLE */
+
+.journal-sheet .editor-content table thead {
+	border-bottom-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
+
+	height:0px !important;
+    vertical-align: bottom !important;
+    padding-bottom: .3em;
+    padding-right: .1em;
+    padding-left: .1em;
+}
+.journal-sheet .editor-content table thead p {
+	text-indent:0 !important;
+	margin: 0px;
+	line-height:0px;
+	border-bottom-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0) !important;
+	height:0px !important;
+}
+.journal-sheet .editor-content table tr {
+	width: auto !important;
+	min-width: 64px;
+	text-shadow: none !important;
+	color: black !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+.journal-sheet .editor-content table thead{
+    font-weight: 800 !important;
+}
+.journal-sheet .editor-content table tbody tr:nth-child(odd) {
+	background-color: #e0e5c1 !important;
+}
+.journal-sheet .editor-content table tr:nth-child(even) {
+	background-color: rgba(0,0,0,0) !important;
+}
+.journal-sheet .editor-content table{
+	font-family: ScalySans;
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 10pt;
+    line-height: 1.1em;
+	-webkit-column-break-inside: avoid;
+	box-sizing: border-box;
+	padding: 0.3em 0.1em;
+	background: none;
+	border-collapse: collapse;
+	border-color:rgba(0,0,0,0) !important;
+	table-layout: auto !important;
+	white-space:normal;	
+}
+.journal-sheet .editor-content table+p{
+    text-indent:1em
+}
+
+/* CODE */
+
+.journal-sheet .editor-content code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e !important;
+    background-color: #f9f2f4 !important;
+    border-radius: 4px !important;
+}
+
+/* CUSTOM STUFF */
+
+/* 
+    Unfortunately I could not find an alternative 
+    to the table-wrap.png noted below that I felt 
+    comfortable to share.  This class-table block
+    would look like this: 
+    https://www.pinterest.co.uk/pin/326018460509625722/
+    
+.journal-sheet .editor-content .class-table {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border-collapse: separate;
+    background-color: white;
+    border: initial;
+    border-style: solid;
+    border-image-outset: 25px 17px;
+    border-image-repeat: stretch;
+    border-image-slice: 150 200 150 200;
+    border-image-source: url(table-wrap.png);
+    border-image-width: 47px;
+	max-width:480px;
+	margin-left:auto;
+	margin-right:auto;
+}
+*/
+
+/* 
+  Credit:
+  https://github.com/jonathonf/solbera-dnd-fonts
+*/
+
+@font-face{
+    font-family:BookSanity;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:BookSanity;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity Bold.otf') format('opentype');
+    font-weight:bold;
+    font-style:normal
+}
+@font-face{
+    font-family:BookSanity;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity Italic.otf') format('opentype');
+    font-weight:normal;
+    font-style:italic
+}
+@font-face{
+    font-family:BookSanity;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/blob/master/Bookinsanity/Bookinsanity Bold Italic.otf') format('opentype');
+    font-weight:bold;
+    font-style:italic
+}
+@font-face{
+    font-family:NodestoCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:NodestoCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold.otf') format('opentype');
+    font-weight:bold;
+    font-style:normal
+}
+@font-face{
+    font-family:NodestoCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Italic.otf') format('opentype');
+    font-weight:normal;
+    font-style:italic
+}
+@font-face{
+    font-family:NodestoCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf') format('opentype');
+    font-weight:bold;
+    font-style:italic
+}
+@font-face{
+    font-family:ScalySans;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:ScalySans;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans Bold.otf') format('opentype');
+    font-weight:bold;
+    font-style:normal
+}
+@font-face{
+    font-family:ScalySans;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans Italic.otf') format('opentype');
+    font-weight:normal;
+    font-style:italic
+}
+@font-face{
+    font-family:ScalySans;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans Bold Italic.otf') format('opentype');
+    font-weight:bold;
+    font-style:italic
+}
+@font-face{
+    font-family:ScalySansSmallCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:ScalySansSmallCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold.otf') format('opentype');
+    font-weight:bold;
+    font-style:normal
+}
+@font-face{
+    font-family:ScalySansSmallCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Italic.otf') format('opentype');
+    font-weight:normal;
+    font-style:italic
+}
+@font-face{
+    font-family:ScalySansSmallCaps;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold%20Italic.otf') format('opentype');
+    font-weight:bold;
+    font-style:italic
+}
+@font-face{
+    font-family:Solberry;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Solbera%20Imitation/Solbera%20Imitation.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:MrJeeves;
+    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Mr%20Eaves/Mr%20Eaves%20Small%20Caps.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal		
+}
