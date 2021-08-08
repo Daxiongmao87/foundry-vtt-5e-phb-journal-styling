@@ -83,6 +83,7 @@
 	padding-bottom:1.5cm;
 	background-color:#EEE5CE;	
 	background-image:url('https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/5e-phb-background-imitation.png');
+	
 	font-family:BookSanity !important;
 	font-size:1.0em;
 	text-rendering:optimizeLegibility;
@@ -107,7 +108,7 @@
     background-color: #e0e5c1;
     border-style: solid;
     border-width: 11px;
-    border-image: url(https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/note-wrap-imitation.png) 40;
+    border-image: url('https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/note-wrap-imitation.png') 40;
     border-image-outset: 9px 0;
     box-shadow: 1px 4px 14px #888;
 }
@@ -234,7 +235,7 @@
     border-image-outset: 25px 17px;
     border-image-repeat: stretch;
     border-image-slice: 150 200 150 200;
-    border-image-source: url(https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/class-table-wrap-imitation.png);
+    border-image-source: url('https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/images/class-table-wrap-imitation.png');
     border-image-width: 47px;
 	max-width:480px;
 	margin-left:auto;
