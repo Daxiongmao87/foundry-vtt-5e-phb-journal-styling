@@ -242,115 +242,109 @@
 
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity.otf') format('opentype');
+    src:url('../fonts/Bookinsanity.otf') format('opentype');
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold.otf') format('opentype');
+    src:url('../fonts/Bookinsanity%20Bold.otf') format('opentype');
     font-weight:bold;
     font-style:normal
 }
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Italic.otf') format('opentype');
+    src:url('../fonts/Bookinsanity%20Italic.otf') format('opentype');
     font-weight:normal;
     font-style:italic
 }
 @font-face{
     font-family:BookSanity;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Bookinsanity/Bookinsanity%20Bold%20Italic.otf') format('opentype');
+    src:url('../fonts/Bookinsanity%20Bold%20Italic.otf') format('opentype');
     font-weight:bold;
     font-style:italic
 }
 @font-face{
     font-family:NodestoCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf') format('opentype');
+    src:url('../fonts/Nodesto%20Caps%20Condensed.otf') format('opentype');
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:NodestoCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf') format('opentype');
-    font-weight:normal;
-    font-style:normal
-}
-@font-face{
-    font-family:NodestoCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold.otf') format('opentype');
+    src:url('../fonts/Nodesto%20Caps%20Condensed%20Bold.otf') format('opentype');
     font-weight:bold;
     font-style:normal
 }
 @font-face{
     font-family:NodestoCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Italic.otf') format('opentype');
+    src:url('../fonts/Nodesto%20Caps%20Condensed%20Italic.otf') format('opentype');
     font-weight:normal;
     font-style:italic
 }
 @font-face{
     font-family:NodestoCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf') format('opentype');
+    src:url('../fonts/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf') format('opentype');
     font-weight:bold;
     font-style:italic
 }
 @font-face{
     font-family:ScalySans;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans.otf') format('opentype');
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:ScalySans;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans Bold.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans Bold.otf') format('opentype');
     font-weight:bold;
     font-style:normal
 }
 @font-face{
     font-family:ScalySans;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans Italic.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans Italic.otf') format('opentype');
     font-weight:normal;
     font-style:italic
 }
 @font-face{
     font-family:ScalySans;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans/Scaly%20Sans Bold Italic.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans Bold Italic.otf') format('opentype');
     font-weight:bold;
     font-style:italic
 }
 @font-face{
     font-family:ScalySansSmallCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans%20Caps.otf') format('opentype');
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:ScalySansSmallCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans%20Caps%20Bold.otf') format('opentype');
     font-weight:bold;
     font-style:normal
 }
 @font-face{
     font-family:ScalySansSmallCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Italic.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans%20Caps%20Italic.otf') format('opentype');
     font-weight:normal;
     font-style:italic
 }
 @font-face{
     font-family:ScalySansSmallCaps;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Scaly%20Sans%20Caps/Scaly%20Sans%20Caps%20Bold%20Italic.otf') format('opentype');
+    src:url('../fonts/Scaly%20Sans%20Caps%20Bold%20Italic.otf') format('opentype');
     font-weight:bold;
     font-style:italic
 }
 @font-face{
     font-family:Solberry;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Solbera%20Imitation/Solbera%20Imitation.otf') format('opentype');
+    src:url('../fonts/Solbera%20Imitation.otf') format('opentype');
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:MrJeeves;
-    src:url('https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Mr%20Eaves/Mr%20Eaves%20Small%20Caps.otf') format('opentype');
+    src:url('../fonts/Mr%20Eaves%20Small%20Caps.otf') format('opentype');
     font-weight:normal;
     font-style:normal		
 }
