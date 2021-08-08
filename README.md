@@ -1,4 +1,4 @@
-# 5e PHB CSS for Foundry VTT Journals
+# D&D 5th Edition PHB Journal Styling for Foundry VTT
 
 ![Example Image of this CSS](https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/images/screenshot.png?raw=true)
 
