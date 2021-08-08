@@ -1,0 +1,15 @@
+{
+  "name": "foundry-vtt-5e-phb-journal-styling",
+  "title": "Daxiongmao87 5e Journal Styling",
+  "description": "Modifies the look and feel of Journal entries to resemble 5e styling",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.8",
+  "minimumSystemVersion": "1.1.3",
+  "styles": [ "styles/5e-phb.css" ],
+	"packs": [],
+  "author": "Daxiongmao87",
+  "url": "https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling",
+  "manifest": "https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/module.json",
+  "download": ""
+}
