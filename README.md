@@ -2,7 +2,7 @@
 
 ![Example Image of this CSS](https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/images/screenshot.png?raw=true)
 
-## Usage
+## Usage (Without Module)
 1. First you'll need to install and enable this module in your world: https://foundryvtt.com/packages/custom-css
 2. Then copy the code from: https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/5e-phb.css
 3. In your world, navigate to Configure Settings -> Module Settings -> Custom CSS -> Custom CSS Rules
