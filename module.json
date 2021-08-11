@@ -2,7 +2,7 @@
   "name": "foundry-vtt-5e-phb-journal-styling",
   "title": "D&D 5th Edition PHB Journal Styling",
   "description": "Modifies the look and feel of Journal entries to resemble 5e styling",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.8.8",
   "minimumSystemVersion": "1.1.3",
