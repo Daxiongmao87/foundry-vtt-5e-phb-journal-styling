@@ -28,5 +28,9 @@
 2.  Under Custom, select "Fancy table"
     ![Source Screenshot](images/fancy-table.png)
 
+## Contributors
+* Daxiongmao87
+* scooper4711
+
 ## Credit
 All font used in this CSS is from https://github.com/jonathonf/solbera-dnd-fonts
