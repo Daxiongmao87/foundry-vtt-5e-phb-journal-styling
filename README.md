@@ -30,7 +30,8 @@
 
 ## Contributors
 * Daxiongmao87
-* scooper4711
+* [scooper4711](https://github.com/scooper4711)
+* [earlSt1](https://github.com/earlSt1)
 
 ## Credit
 All font used in this CSS is from https://github.com/jonathonf/solbera-dnd-fonts
