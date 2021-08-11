@@ -13,6 +13,6 @@
   ],
   "author": "Daxiongmao87",
   "url": "https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling",
-  "manifest": "https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/main/module.json",
   "download": "https://github.com/Daxiongmao87/foundry-vtt-5e-phb-journal-styling/archive/refs/heads/main.zip"
 }
